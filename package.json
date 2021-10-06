@@ -1,0 +1,10 @@
+{
+  "name": "object-to-formdata",
+  "version": "1.0.0",
+  "description": "Transforms your object to JavaScript's FormData",
+  "main": "src/index.js",
+  "repository": "https://github.com/GustavoFelixReal/object-to-formdata.git",
+  "author": "Gustavo Felix",
+  "license": "MIT",
+  "private": false
+}
