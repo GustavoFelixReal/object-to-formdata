@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es2019",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

@@ -2,9 +2,25 @@
   "name": "object-to-formdata",
   "version": "1.0.0",
   "description": "Transforms your object to JavaScript's FormData",
-  "main": "src/index.js",
-  "repository": "https://github.com/GustavoFelixReal/object-to-formdata.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GustavoFelixReal/object-to-formdata.git"
+  },
   "author": "Gustavo Felix",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.3"
+  },
+  "files": ["lib/**/*"]
 }
