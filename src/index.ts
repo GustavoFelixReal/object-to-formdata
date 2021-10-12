@@ -6,7 +6,7 @@ export default function objectToFormData(object: Record<string, any>) {
   return formData;
 }
 
-export function processObject(object: Record<string, any>, currentKey = '') {
+function processObject(object: Record<string, any>, currentKey = '') {
   if (object) {
     if (Array.isArray(object)) {
 
